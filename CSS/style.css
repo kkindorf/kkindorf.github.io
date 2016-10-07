@@ -21,18 +21,14 @@ border: 15px solid #67B242;
     font-size: 1.2em;
 }
 
-a{
-  color: #67B242;
-}
-.resume a{
+a, .AboutMeButtons a{
   color: #67B242;
 }
 
 /*header section*/
-.jumbo{
-    margin-top: 70px;
-    margin-bottom: 20px;
-
+.content-container{
+  width: 55%;
+  margin: auto;
 }
 .headers{
   margin-bottom: 5%;
@@ -45,71 +41,48 @@ a{
 }
 .web{
   color: #555;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .introduction {
     font-size:1.2em;
 }
-.bio{
+.bio, .hobbies, .resume{
   margin: auto;
-  width: 75%;
-}
-.hobbies{
-  margin: auto;
-  width: 75%;
   padding-top: 20px;
 }
-.resume{
-  margin: auto;
-  width: 75%;
-  padding-top: 20px;
-}
+
 /*styles for projects */
 
 .projects-header{
   color: #67B242;
   text-align: center;
-  font-size: 2em;
   font-weight: 420;
 }
 .image-container {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin: auto;
-    width: 85%;
 }
-img{
-    max-width: 360px;
-}
+
 .card {
     position: relative;
     margin-top: 20px;
-    margin-left: 5px;
-    margin-right:10px;
     padding-bottom: 200px;
-
 }
 .card-title {
   color: #67B242;
+  font-size: 1.2em;
 }
 
 .card-block {
     width: 100%;
     position: absolute;
-    display: block;
     font-size: 1.2em;
 }
 /*styles for connect-container */
 
 .connect-container {
-    margin: auto;
-    width: 70%;
     text-align: center;
     padding-bottom: 10%;
-}
-.connect-container a{
-  color: #67B242;
-
 }
 .fa-envelope{
     padding-right:10%;
@@ -118,22 +91,12 @@ img{
     padding-right:10%;
 }
 /*media queries*/
-@media screen and (max-width:480px) {
-  .jumbo{
+@media screen and (max-width:600px) {
+  .content-container{
     width: 95%;
+
   }
-}
-@media screen and (min-width:960px){
-    h1{
-      font-size: 2em;
-    }
-    body{
-        font-size:2em;
-    }
-    .image-container{
-        width: 55%;
-    }
-    .AboutMe{
-        padding:100px 0;
-    }
+  .card{
+    margin-bottom: 70px;
+  }
 }
