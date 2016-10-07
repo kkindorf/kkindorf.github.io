@@ -50,9 +50,7 @@ a, .AboutMeButtons a{
   margin: auto;
   padding-top: 20px;
 }
-
 /*styles for projects */
-
 .projects-header{
   color: #67B242;
   text-align: center;
@@ -74,7 +72,6 @@ a, .AboutMeButtons a{
 }
 
 .card-block {
-    width: 100%;
     position: absolute;
     font-size: 1.2em;
 }
@@ -85,7 +82,7 @@ a, .AboutMeButtons a{
     padding-bottom: 10%;
 }
 .fa-envelope{
-    padding-right:10%;
+    padding-right:20px;
 }
 .fa-github-alt{
     padding-right:10%;
@@ -94,7 +91,6 @@ a, .AboutMeButtons a{
 @media screen and (max-width:600px) {
   .content-container{
     width: 95%;
-
   }
   .card{
     margin-bottom: 70px;
