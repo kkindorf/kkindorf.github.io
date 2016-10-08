@@ -57,7 +57,7 @@ a, .AboutMeButtons a{
   font-weight: 420;
 }
 img{
-  width: 100%;
+  max-width: 400px;
 }
 .image-container {
     padding-top: 30px;
