@@ -27,7 +27,7 @@ border: 15px solid #67B242;
 }
 
 .header {
-    margin-bottom: 5%;
+    margin-bottom: 15px;
     color: #67B242;
     font-size: 2em;
     text-align: center;
@@ -35,6 +35,7 @@ border: 15px solid #67B242;
 .web{
   color: #555;
   font-size: 1.7em;
+  text-align: center;
 }
 
 .bio, .hobbies, .resume{
