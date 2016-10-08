@@ -27,9 +27,9 @@ border: 15px solid #67B242;
 }
 
 .header {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #67B242;
-    font-size: 2em;
+    font-size: 2.3em;
     text-align: center;
 }
 .web{
@@ -42,6 +42,7 @@ border: 15px solid #67B242;
   padding-top: 20px;
   font-size: 1.2em;
 }
+
 /*styles for projects */
 
 img{
