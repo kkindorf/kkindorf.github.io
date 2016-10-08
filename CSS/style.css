@@ -27,7 +27,7 @@ a, .AboutMeButtons a{
 
 /*header section*/
 .content-container{
-  width: 55%;
+  width: 650px;
   margin: auto;
 }
 .headers{
@@ -57,7 +57,7 @@ a, .AboutMeButtons a{
   font-weight: 420;
 }
 img{
-  max-width: 500px;
+  max-width: 510px;
 }
 .image-container {
     padding-top: 30px;
@@ -96,6 +96,6 @@ img{
     width: 95%;
   }
   .card{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 }
