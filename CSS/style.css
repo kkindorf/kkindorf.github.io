@@ -42,7 +42,11 @@ border: 15px solid #67B242;
   padding-top: 20px;
   font-size: 1.2em;
 }
-
+.resume a{
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #67B242;
+}
 /*styles for projects */
 
 img{
