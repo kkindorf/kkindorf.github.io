@@ -3,6 +3,7 @@
 *{
   font-family: 'Lato', sans-serif;
   color: #555;
+   font-size: 1.2em;
 }
 .container-fluid{
 border: 15px solid #67B242;
@@ -11,14 +12,12 @@ border: 15px solid #67B242;
 .top-buttons {
     margin-left: 6%;
     margin-right: 6%;
-    color: #333;
 }
 .navbar-static-top {
     padding: 1% 0;
 }
- a {
+ .navbar-static-top a {
     color: #67B242;
-    font-size: 1.2em;
 }
 
 /*header section*/
@@ -27,7 +26,7 @@ border: 15px solid #67B242;
   margin: auto;
 }
 
-.header{
+.header h3{
     margin-bottom: 5%;
     color: #67B242;
     font-size: 2em;
@@ -37,9 +36,7 @@ border: 15px solid #67B242;
   color: #555;
   font-size: 1.7em;
 }
-.introduction {
-    font-size:1.2em;
-}
+
 .bio, .hobbies, .resume{
   padding-top: 20px;
 }
@@ -60,12 +57,10 @@ img{
 }
 .card-title {
   color: #67B242;
-  font-size: 1.2em;
 }
 
 .card-block {
     position: absolute;
-    font-size: 1.2em;
 }
 /*styles for connect-container */
 
