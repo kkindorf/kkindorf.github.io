@@ -17,6 +17,7 @@ border: 15px solid #67B242;
 }
  .navbar-static-top a {
     color: #67B242;
+    font-size: 1.2em;
 }
 
 /*header section*/
@@ -38,6 +39,7 @@ border: 15px solid #67B242;
 
 .bio, .hobbies, .resume{
   padding-top: 20px;
+  font-size: 1.2em;
 }
 /*styles for projects */
 
@@ -53,6 +55,8 @@ img{
     position: relative;
     margin-top: 20px;
     padding-bottom: 200px;
+    font-size: 1.2em;
+   
 }
 .card-title {
   color: #67B242;
