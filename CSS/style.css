@@ -26,7 +26,7 @@ border: 15px solid #67B242;
   margin: auto;
 }
 
-.header h3{
+.header {
     margin-bottom: 5%;
     color: #67B242;
     font-size: 2em;
