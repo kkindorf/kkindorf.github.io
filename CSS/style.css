@@ -50,7 +50,7 @@ border: 15px solid #67B242;
 /*styles for projects */
 
 img{
-  max-width: 510px;
+  max-width: 520px;
 }
 .image-container {
     padding-top: 30px;
@@ -62,7 +62,7 @@ img{
     margin-top: 20px;
     padding-bottom: 200px;
     font-size: 1.2em;
-   
+
 }
 .card-title {
   color: #67B242;
