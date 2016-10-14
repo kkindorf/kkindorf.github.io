@@ -11,13 +11,14 @@ border: 15px solid #67B242;
 .top-buttons {
     margin-left: 6%;
     margin-right: 6%;
+
 }
 .navbar-static-top {
     padding: 1% 0;
+    font-size: 1.2em;
 }
  .navbar-static-top a {
     color: #67B242;
-    font-size: 1.2em;
 }
 
 /*header section*/
@@ -43,8 +44,6 @@ border: 15px solid #67B242;
   font-size: 1.2em;
 }
 .resume a{
-  font-size: 1.2em;
-  font-weight: normal;
   color: #67B242;
 }
 /*styles for projects */
@@ -66,10 +65,20 @@ img{
 }
 .card-title {
   color: #67B242;
+  font-size: 1.3em;
 }
-
+.proj-button {
+  border-radius: 0 !important;
+  border: none !important;
+  color: #555 !important;
+  font-size: 1.2em !important;
+  padding: 2px !important;
+}
 .card-block {
     position: absolute;
+}
+.card-text{
+  margin-top: 55px;
 }
 /*styles for connect-container */
 
