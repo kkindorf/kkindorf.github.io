@@ -68,11 +68,9 @@ img{
   font-size: 1.3em;
 }
 .proj-button {
-  border-radius: 0 !important;
-  border: none !important;
-  color: #555 !important;
-  font-size: 1.2em !important;
-  padding: 2px !important;
+  color: #555;
+  font-size: 1.2em;
+  padding: 2px;
 }
 .card-block {
     position: absolute;
