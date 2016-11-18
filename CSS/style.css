@@ -83,12 +83,19 @@ img{
 .connect-container {
     text-align: center;
     padding-bottom: 10%;
+
+}
+.connect-container a{
+  color: #555;
 }
 .fa-envelope{
     padding-right:20px;
 }
-.fa-github-alt, .fa-free-code-camp{
-    padding-right:20px;
+.fa-github-alt{
+    padding-right:40px;
+}
+.fa-github-alt, .fa-linkedin-square{
+  padding-top: 25px;
 }
 /*media queries*/
 @media screen and (max-width:600px) {
