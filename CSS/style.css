@@ -42,7 +42,8 @@ border: 15px solid #67B242;
 
 .bio, .hobbies, .resume{
   padding-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  text-align: center;
 }
 .resume a{
   color: #67B242;
