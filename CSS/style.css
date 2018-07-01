@@ -37,6 +37,7 @@ border: 15px solid #67B242;
   color: #555;
   font-size: 1.7em;
   text-align: center;
+  line-height: 1.3;
 }
 
 .bio, .hobbies, .resume{
