@@ -33,14 +33,15 @@ border: 15px solid #67B242;
     font-size: 2.3em;
     text-align: center;
 }
-.web{
+.description {
   color: #555;
   font-size: 1.9em;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.7;
+
 }
 
-.bio, .hobbies, .resume{
+.resume {
   padding-top: 20px;
   font-size: 1.4em;
   text-align: center;
@@ -48,6 +49,23 @@ border: 15px solid #67B242;
 .resume a{
   color: #67B242;
 }
+
+/*section navigation*/
+.section-navigation ul {
+  text-decoration: none;
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 45px;
+
+}
+.section-navigation ul li {
+  display: inline;
+  margin: 15px;
+}
+.section-navigation ul li a {
+  color: #67B242;
+}
+
 /*styles for projects */
 
 img{
@@ -80,6 +98,12 @@ img{
 .card-text{
   margin-top: 55px;
 }
+
+/*back to top links*/
+.top-link {
+  color: #67B242;
+  font-size: 1.2em;
+}
 /*styles for connect-container */
 
 .connect-container {
@@ -100,6 +124,11 @@ img{
   padding-top: 25px;
 }
 /*media queries*/
+@media screen and (max-width: 750px) {
+  .section-navigation ul li {
+    display: block;
+  }
+}
 @media screen and (max-width:600px) {
   .content-container{
     width: 95%;

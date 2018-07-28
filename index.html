@@ -13,6 +13,7 @@
   <div class="container-fluid">
       <div class="row">
           <nav class="navbar-static-top">
+              <div id="top"></div>
               <div class="container">
                 <p class="navbar-text pull-left">
                   <a href="https://github.com/kkindorf" target="_blank">Github</a>
@@ -22,16 +23,22 @@
                 </p>
               </div>
             </nav>
-            <div class="content-container">
+            <main class="content-container">
                 <div class="introduction">
                       <h1 class="header">Kevin Kindorf</h1>
-                      <h4 class="web">Web Developer <br/> Librarian  <br/>Problem Solver</h4>
                     <p class="resume">Take a look at my <a href="/content/resume2018.pdf" target="_blank">resume</a> and follow me on <a href="https://github.com/kkindorf" target="_blank">Github</a>.
+                    <nav class="section-navigation">
+                      <ul>
+                        <li><a href="#frontend">Front End Projects</a></li>
+                        <li><a href="#api">API Projects</a></li>
+                        <li><a href="#dynamic">Dynamic Projects</a></li>
+                      </ul>
+                    </nav>
                </div>
                 <div class="image-container">
-                  <h1 class="header">Projects</h1>
+                  <h1 class="header" id="frontend">Front End Projects</h1>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/mbKMUftl.png" alt="Image of the DPLAY Image Editor Application built by Kevin Kindorf">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/mbKMUftl.png" alt="">
                         <div class="card-block">
                             <h4 class="card-title">DPLA Image Editor</h4>
                              <div class="proj-buttons">
@@ -42,7 +49,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/qmTrtJSl.png" alt="Image of the Guardian Saver application built by Kevin Kindorf.">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/qmTrtJSl.png" alt="">
                         <div class="card-block">
                             <h4 class="card-title">Guardian Saver</h4>
                             <div class="proj-buttons">
@@ -52,8 +59,20 @@
                             <p class="card-text">Use the Guardian Saver app to search for content from <em>The Guardian</em>. Save your items for later and add notes to them as well. Technologies used include Mongodb, jQuery, Bootstrap, Node and Express.</p>
                         </div>
                     </div>
+                    
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/wTPeGnXl.png" alt="Card image cap">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/PJaiNx9.png" alt="">
+                        <div class="card-block">
+                            <h4 class="card-title">D3 Bar Chart</h4>
+                            <div class="proj-buttons">
+                              <a class="pull-left proj-button" href="https://github.com/kkindorf/d3-barchart" target="_blank" role="button">Source</a>
+                              <a class="pull-right proj-button" href="https://kkindorf.github.io/d3-barchart/" target="_blank" role="button">Demo</a>
+                            </div>
+                            <p class="card-text">This barchart was built as one of Freecodecamp's data visualization challenges. I am using D3's API to visually display the growth of United States' Gross Domestic Product over the last seventy years.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/wTPeGnXl.png" alt="">
                         <div class="card-block">
                             <h4 class="card-title">Weather App</h4>
                             <div class="proj-buttons">
@@ -64,7 +83,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/9vT9nGwl.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/9vT9nGwl.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">Tumblr Tags</h4>
                             <div class="proj-buttons">
@@ -75,7 +94,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/piRxAgil.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/piRxAgil.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">React Calculator</h4>
                             <div class="proj-buttons">
@@ -86,7 +105,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/ubTi422l.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/ubTi422l.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">Simon Game</h4>
                             <div class="proj-buttons">
@@ -97,7 +116,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/gJMgdcal.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/gJMgdcal.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">Tic-Tac-Toe</h4>
                             <div class="proj-buttons">
@@ -108,7 +127,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/QlV88w6l.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/QlV88w6l.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">Markdown Previewer</h4>
                             <div class="proj-buttons">
@@ -130,7 +149,7 @@
                         </div>
                     </div>-->
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/zWKv0zZ.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/zWKv0zZ.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">Recipe Box</h4>
                             <div class="proj-buttons">
@@ -142,7 +161,7 @@
                     </div>
 
                     <div class="card">
-                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/ZDE8iQkl.png">
+                        <img class="card-img-top img-responsive center-block" src="https://i.imgur.com/ZDE8iQkl.png" alt="">
                         <div class="card-block">
                           <h4 class="card-title">The Game of Life</h4>
                             <div class="proj-buttons">
@@ -163,6 +182,7 @@
                             <p class="card-text">This is a simple dungeon crawler game built using React. The main objective is to destroy the boss in dungeon 4. Red squares are enemies, green are health, yellow are weapons, purple are doors to next dungeon and orange is the boss.</p>
                         </div>
                     </div>
+                    <a class="pull-right top-link" href="#top">Back To Top</a>
                 </div>
             <div class="connect-container">
               <h3 class="header">Stay Connected</h3>
@@ -173,7 +193,7 @@
             </div>
         </div>
     </div>
-  </div>
+  </main>
   <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
   <scrpt src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scrpt>
 </body>
