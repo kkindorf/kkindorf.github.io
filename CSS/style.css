@@ -1,140 +1,139 @@
-
 /*body text*/
 *{
-  font-family: 'Lato', sans-serif;
-  color: #555;
-}
-.container-fluid{
-  border: 15px solid #248f24;
-}
-/*nav styles*/
-.top-buttons {
-    margin-left: 6%;
-    margin-right: 6%;
-
-}
-.navbar-static-top {
-    padding: 1% 0;
-    font-size: 1.2em;
-}
- .navbar-static-top a {
-    color: #248f24;
-}
-
-/*header section*/
-.content-container{
-  width: 650px;
-  margin: auto;
-}
-
-.header {
-    margin-top: 45px;
-    margin-bottom: 35px;
-    color: #248f24;
-    font-size: 2.3em;
-    text-align: center;
-    clear: both;
-}
-.description {
-  color: #555;
-  font-size: 1.9em;
-  text-align: center;
-  line-height: 1.7;
-
-}
-
-.resume {
-  padding-top: 20px;
-  font-size: 1.4em;
-  text-align: center;
-}
-.resume a{
-  color: #248f24;
-}
-
-/*section navigation*/
-.section-navigation ul {
-  text-decoration: none;
-  font-size: 1.4em;
-  text-align: center;
-  margin-top: 45px;
-
-}
-.section-navigation ul li {
-  display: inline;
-  margin: 15px;
-}
-.section-navigation ul li a {
-  color: #248f24;
-}
-
-/*styles for projects */
-
-img{
-  max-width: 520px;
-}
-.image-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.card {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    font-size: 1.2em;
-
-}
-.card-title {
-  color: #248f24;
-  font-size: 1.3em;
-}
-.proj-button {
-  color: #555;
-  font-size: 1.2em;
-  padding: 2px;
-}
-
-.card-text{
-  margin-top: 55px;
-}
-
-/*back to top links*/
-.top-link {
-  color: #248f24;
-  font-size: 1.2em;
-
-}
-/*styles for connect-container */
-
-.connect-container {
-    text-align: center;
-    padding-bottom: 10%;
-
-}
-.connect-container a{
-  color: #555;
-}
-.fa-envelope{
-    padding-right:20px;
-}
-.fa-github-alt{
-    padding-right:40px;
-}
-.fa-github-alt, .fa-linkedin-square{
-  padding-top: 25px;
-}
-/*media queries*/
-@media screen and (max-width: 750px) {
-  .section-navigation ul li {
-    display: block;
+    font-family: 'Lato', sans-serif;
+    color: #555;
   }
-}
-@media screen and (max-width:600px) {
+  .container-fluid{
+    border: 15px solid #248f24;
+  }
+  /*nav styles*/
+  .top-buttons {
+      margin-left: 6%;
+      margin-right: 6%;
+  
+  }
+  .navbar-static-top {
+      padding: 1% 0;
+      font-size: 1.2em;
+  }
+   .navbar-static-top a {
+      color: #248f24;
+  }
+  
+  /*header section*/
   .content-container{
-    width: 95%;
+    width: 650px;
+    margin: auto;
   }
-  .card{
-    margin-bottom: 80px;
+  
+  .header {
+      margin-top: 45px;
+      margin-bottom: 35px;
+      color: #248f24;
+      font-size: 2.3em;
+      text-align: center;
+      clear: both;
   }
-}
+  .description {
+    color: #555;
+    font-size: 1.9em;
+    text-align: center;
+    line-height: 1.7;
+  
+  }
+  
+  .resume {
+    padding-top: 20px;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .resume a{
+    color: #248f24;
+  }
+  
+  /*section navigation*/
+  .section-navigation ul {
+    text-decoration: none;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 45px;
+  
+  }
+  .section-navigation ul li {
+    display: inline;
+    margin: 15px;
+  }
+  .section-navigation ul li a {
+    color: #248f24;
+  }
+  
+  /*styles for projects */
+  
+  img{
+    max-width: 520px;
+  }
+  .image-container {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  
+  .card {
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      font-size: 1.2em;
+  
+  }
+  .card-title {
+    color: #248f24;
+    font-size: 1.3em;
+  }
+  .proj-button {
+    color: #555;
+    font-size: 1.2em;
+    padding: 2px;
+  }
+  
+  .card-text{
+    margin-top: 55px;
+  }
+  
+  /*back to top links*/
+  .top-link {
+    color: #248f24;
+    font-size: 1.2em;
+  
+  }
+  /*styles for connect-container */
+  
+  .connect-container {
+      text-align: center;
+      padding-bottom: 10%;
+  
+  }
+  .connect-container a{
+    color: #555;
+  }
+  .fa-envelope{
+      padding-right:20px;
+  }
+  .fa-github-alt{
+      padding-right:40px;
+  }
+  .fa-github-alt, .fa-linkedin-square{
+    padding-top: 25px;
+  }
+  /*media queries*/
+  @media screen and (max-width: 750px) {
+    .section-navigation ul li {
+      display: block;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .content-container{
+      width: 95%;
+    }
+    .card{
+      margin-bottom: 80px;
+    }
+  }
