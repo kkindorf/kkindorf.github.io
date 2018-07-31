@@ -81,7 +81,7 @@
   .card {
       position: relative;
       margin-top: 20px;
-      margin-bottom: 100px;
+      margin-bottom: 85px;
       font-size: 1.2em;
   
   }
@@ -102,7 +102,9 @@
   /*back to top links*/
   .top-link {
     color: #248f24;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 60px;
   
   }
   /*styles for connect-container */
